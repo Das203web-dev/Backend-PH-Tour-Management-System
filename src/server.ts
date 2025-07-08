@@ -18,10 +18,6 @@ const serverConnect = async () => {
 }
 serverConnect()
 
-
-
-
-
 // server error handeling 
 
 process.on("SIGTERM", () => {
